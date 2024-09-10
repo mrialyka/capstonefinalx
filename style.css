@@ -1,0 +1,63 @@
+.gradient-background {
+    background: linear-gradient(300deg, #eeaeca, #94bbe9);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @media(min-width:992px){
+    .imgprofile{
+      margin-right: auto !important;
+      margin-left: auto !important;
+    }
+  }
+
+
+
+  .d-block{
+    border-radius: 50%;
+    height: 500px;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: -webkit-linear-gradient(#3c117c, #a1a0a0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+  .lead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .feature-icon {
+    width: 8rem;
+    height: 8rem;
+    border-radius: .75rem;
+}
+
+
+
+
+
